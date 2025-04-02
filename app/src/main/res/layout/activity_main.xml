@@ -26,13 +26,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Upload Lên Cloudinary"
-        android:enabled="false"/>
+        android:enabled="false"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnViewImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem Ảnh Đã Upload"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:id="@+id/tvResult"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textAlignment="center"/>
+        android:gravity="center"
+        android:textSize="16sp"/>
 
 </LinearLayout>
